@@ -1,36 +1,37 @@
+# Depth-First Challenge
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+
+## Project Description
+
+The Depth-First Challenge is a web application built with Next.js to demonstrate advanced features such as dynamic rendering, server components, and optimized performance using Turbopack. It serves as a learning resource for exploring Next.js capabilities.
 
 ## Getting Started
 
-First, run the development server:
+First, clone the repository and install dependencies:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
+git clone https://github.com/supacheep-first/depth-first-challenge.git
+cd depth-first-challenge
+pnpm install
+```
+
+Then, run the development server:
+
+```bash
 pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## But challenge is register page
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+[http://localhost:3000/pages/register](http://localhost:3000/pages/register)
 
-## Learn More
+## Features
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Dynamic Rendering**: Supports both static and dynamic rendering based on route configurations.
+- **Server Components**: Leverages Next.js server components for optimized performance.
+- **Turbopack**: Uses Turbopack for faster builds and improved development experience.
+- **Error Handling**: Includes custom error handling for dynamic server usage and static generation bailouts.
+- **Documentation Links**: Provides contextual documentation links for errors and warnings.
